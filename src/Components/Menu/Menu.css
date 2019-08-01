@@ -1,4 +1,4 @@
-.menu-container {
+.bars-container {
     height: 36px;
     width: 36px;
     border: 2px solid white;
@@ -6,9 +6,26 @@
     position: fixed;
     top: 10px;
     left: 10px;
+    padding: 0px;
+    background-color: #181D23;
+}
+
+.bars-container:hover {
+    border-color: #0078FF;
 }
 
 .menu-icon {
     color: white;
-    margin-top: 10px;
+}
+
+.menu-container {
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    text-align: left;
+}
+
+.menu-links {
+    text-decoration: none;
+    color: white;
 }
