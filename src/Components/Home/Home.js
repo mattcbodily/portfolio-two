@@ -8,7 +8,7 @@ library.add(faFacebookF, faTwitter, faLinkedinIn, faGithub)
 
 const Home = () => {
     return(
-        <div className='home-container'>
+        <div id='home' className='home-container'>
             <h1>Hello, I'm <span className='name-span'>Matthew Bodily</span></h1>
             <h1>Full-Stack Web Developer</h1>
             <section>

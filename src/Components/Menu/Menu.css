@@ -1,0 +1,14 @@
+.menu-container {
+    height: 36px;
+    width: 36px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.menu-icon {
+    color: white;
+    margin-top: 10px;
+}
