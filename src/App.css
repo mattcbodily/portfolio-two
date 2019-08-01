@@ -3,8 +3,16 @@ h1 {
   font-weight: 300;
   margin: 0px;
   color: white;
+  letter-spacing: 1px;
 }
 
 .App {
+  background-color: #181D23;
   text-align: center;
+}
+
+@media(min-width: 700px){
+  h1 {
+    font-size: 35px;
+  }
 }
