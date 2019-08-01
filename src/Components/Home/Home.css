@@ -1,0 +1,28 @@
+.home-container {
+    min-height: 60vh;
+    background-color: #272727;
+    padding-top: 40vh;
+}
+
+.name-span {
+    color: #0078FF;
+}
+
+#facebook-icon {
+    font-size: 21px;
+    margin: 6px 7px;
+}
+
+.brand-icon {
+    font-size: 24px;
+    margin: 5px 7px;
+    color: white;
+}
+
+.brand-icon:hover {
+    color: #0078FF;
+}
+
+.brand-icon:active {
+    color: white;
+}
