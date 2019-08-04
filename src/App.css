@@ -6,6 +6,16 @@ h1 {
   letter-spacing: 1px;
 }
 
+h3 {
+  font-weight: 300;
+  margin: 0px;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 .App {
   background-color: #181D23;
   text-align: center;
