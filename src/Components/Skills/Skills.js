@@ -4,6 +4,11 @@ import JavascriptIcon from '../../assets/javascript3.png';
 import HtmlIcon from '../../assets/html5.png';
 import CssIcon from '../../assets/css3.png';
 import ReactIcon from '../../assets/react2.png';
+import ReduxIcon from '../../assets/croppedRedux.png';
+import BootstrapIcon from '../../assets/bootstrap_icon.png';
+import SassIcon from '../../assets/sass.png';
+import StyledComponentsIcon from '../../assets/styled-components.png';
+import NodeIcon from '../../assets/nodejs.png';
 
 const Skills = () => {
     return(
@@ -26,7 +31,27 @@ const Skills = () => {
                 src={ReactIcon} 
                 alt='React Icon'
                 className='skill-icon'/> React</p>
+            <p><img 
+                src={ReduxIcon} 
+                alt='Redux Icon'
+                className='skill-icon'/> Redux</p>
+            <p><img 
+                src={BootstrapIcon} 
+                alt='Bootstrap Icon'
+                className='skill-icon'/> Bootstrap</p>
+            <p><img 
+                src={SassIcon} 
+                alt='Sass Icon'
+                className='skill-icon'/> Sass</p>
+            <p><img 
+                src={StyledComponentsIcon} 
+                alt='Styled-Components Icon'
+                className='skill-icon'/> Styled-Components</p>
             <h3>Back-end</h3>
+            <p><img 
+                src={NodeIcon} 
+                alt='Node Icon'
+                className='skill-icon'/> Node.js</p>
             <h3>Other</h3>
         </div>
     )
