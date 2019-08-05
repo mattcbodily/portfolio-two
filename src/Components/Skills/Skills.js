@@ -14,140 +14,37 @@ import PostgresIcon from '../../assets/postgres.png';
 import SocketIcon from '../../assets/socketio.png';
 import StripeIcon from '../../assets/stripe_icon.png';
 import ChartjsIcon from '../../assets/chartjs.png';
+import GitIcon from '../../assets/git_icon.png';
 
 const Skills = () => {
+    const frontEndSkills = [{image: JavascriptIcon, name: 'Javascript'}, {image: HtmlIcon, name: 'HTML'}, {image: CssIcon, name: 'CSS'}, {image: ReactIcon, name: 'React'}, {image: ReduxIcon, name: 'Redux'}, {image: BootstrapIcon, name: 'Bootstrap'}, {image: SassIcon, name: 'SASS'}, {image: StyledComponentsIcon, name: 'Styled-Components'}]
+    const backEndSkills = [{image: NodeIcon, name: 'Node.js'}, {image: ExpressIcon, name: 'Express.js'}, {image: JavascriptIcon, name: 'Massive.js'}, {image: PostgresIcon, name: 'PostgreSQL'}]
+    const otherSkills = [{image: SocketIcon, name: 'Socket.io'}, {image: StripeIcon, name: 'Stripe.js'}, {image: ChartjsIcon, name: 'Chart.js'}, {image: GitIcon, name: 'Git'}]
+    const mappedFrontEndSkills = frontEndSkills.map(skillStructure)
+    const mappedBackEndSkills = backEndSkills.map(skillStructure)
+    const mappedOtherSkills = otherSkills.map(skillStructure)
+    function skillStructure(element, i){
+        return (
+            <section className='skill-box' key={i}>
+                <div className='skills-flex'>
+                    <img 
+                        src={element.image}
+                        alt={`${element.name} icon`}
+                        className='skill-icon'/>
+                    <p className='skill-name'>{element.name}</p>
+                </div>
+            </section>
+        )
+    }
     return(
         <div id='skills' className='skills-container'>
             <h1>Development Skills</h1>
             <h3>Front-end</h3>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={JavascriptIcon} 
-                        alt='Javascript Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Javascript</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={HtmlIcon} 
-                        alt='HTML Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>HTML</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={CssIcon} 
-                        alt='CSS Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>CSS</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={ReactIcon} 
-                        alt='React Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>React</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={ReduxIcon} 
-                        alt='Redux Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Redux</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={BootstrapIcon} 
-                        alt='Bootstrap Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Bootstrap</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={SassIcon} 
-                        alt='Sass Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>SASS</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={StyledComponentsIcon} 
-                        alt='Styled-Components Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Styled-Components</p>
-                </div>
-            </section>
+            {mappedFrontEndSkills}
             <h3>Back-end</h3>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={NodeIcon} 
-                        alt='Node.js Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Node.js</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={ExpressIcon} 
-                        alt='Express.js Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Express.js</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={PostgresIcon} 
-                        alt='PostgreSQL Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>PostgreSQL</p>
-                </div>
-            </section>
+\           {mappedBackEndSkills}
             <h3>Other</h3>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={SocketIcon} 
-                        alt='Socket.io Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Socket.io</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={StripeIcon} 
-                        alt='Stripe Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Stripe</p>
-                </div>
-            </section>
-            <section className='skill-box'>
-                <div className='skills-flex'>
-                    <img 
-                        src={ChartjsIcon} 
-                        alt='Chart.js Icon'
-                        className='skill-icon'/>
-                    <p className='skill-name'>Chart.js</p>
-                </div>
-            </section>
+            {mappedOtherSkills}
         </div>
     )
 }
