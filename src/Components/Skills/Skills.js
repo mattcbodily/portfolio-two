@@ -9,6 +9,11 @@ import BootstrapIcon from '../../assets/bootstrap_icon.png';
 import SassIcon from '../../assets/sass.png';
 import StyledComponentsIcon from '../../assets/styled-components.png';
 import NodeIcon from '../../assets/nodejs.png';
+import ExpressIcon from '../../assets/expressjslogo.png';
+import PostgresIcon from '../../assets/postgres.png';
+import SocketIcon from '../../assets/socketio.png';
+import StripeIcon from '../../assets/stripe_icon.png';
+import ChartjsIcon from '../../assets/chartjs.png';
 
 const Skills = () => {
     return(
@@ -52,7 +57,27 @@ const Skills = () => {
                 src={NodeIcon} 
                 alt='Node Icon'
                 className='skill-icon'/> Node.js</p>
+            <p><img 
+                src={ExpressIcon} 
+                alt='Express Icon'
+                className='skill-icon'/> Express.js</p>
+            <p><img 
+                src={PostgresIcon} 
+                alt='Postgres Icon'
+                className='skill-icon'/> PostgreSQL</p>
             <h3>Other</h3>
+            <p><img 
+                src={SocketIcon} 
+                alt='Socket-io Icon'
+                className='skill-icon'/> Socket.io</p>
+            <p><img 
+                src={StripeIcon} 
+                alt='Stripe Icon'
+                className='skill-icon'/> Stripe</p>
+            <p><img 
+                src={ChartjsIcon} 
+                alt='Chart.js Icon'
+                className='skill-icon'/> Chart.js</p>
         </div>
     )
 }
