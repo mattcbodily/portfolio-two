@@ -1,8 +1,31 @@
 .skills-container {
     min-height: 95vh;
-    padding-top: 7vh;
+    padding: 7vh 3vw;
+}
+
+.skill-box {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.skill-box:hover {
+    border-color: #0078FF;
+}
+
+.skills-flex {
+    display: flex;
+    align-items: center;
 }
 
 .skill-icon {
-    height: 25px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.skill-name {
+    font-size: 17px;
+    margin: 0px;
 }
