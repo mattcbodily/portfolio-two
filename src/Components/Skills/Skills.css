@@ -1,11 +1,11 @@
 .skills-container {
     min-height: 95vh;
-    padding: 7vh 7vw;
+    padding: 7vh 2vw;
 }
 
 .skill-box {
     display: inline-block;
-    padding: 5px;
+    padding: 5px 5px;
     border: 2px solid white;
     border-radius: 20px;
     margin: 4px;
