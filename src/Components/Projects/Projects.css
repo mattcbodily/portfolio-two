@@ -1,3 +1,8 @@
 .projects-container {
-    min-height: 100vh;
+    min-height: 93vh;
+    padding-top: 7vh;
+}
+
+.project-video {
+    width: 95vw;
 }
