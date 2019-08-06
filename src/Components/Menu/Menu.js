@@ -15,11 +15,10 @@ const Menu = () => {
 
     return(
         <div className='menu'>
-            <section className='bars-container'>
+            <section className='bars-container' onClick={handleToggle}>
                 <FontAwesomeIcon 
                     icon='bars' 
-                    className='menu-icon'
-                    onClick={handleToggle}/>
+                    className='menu-icon'/>
             </section>
             {toggle
             ?  (<nav className='menu-container'>

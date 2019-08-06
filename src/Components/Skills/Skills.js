@@ -21,7 +21,7 @@ import JestIcon from '../../assets/jest_icon.png';
 const Skills = () => {
     const frontEndSkills = [{image: JavascriptIcon, name: 'Javascript'}, {image: HtmlIcon, name: 'HTML'}, {image: CssIcon, name: 'CSS'}, {image: TypescriptIcon, name: 'Typescript'}, {image: ReactIcon, name: 'React'}, {image: ReactIcon, name: 'React Native'}, {image: ReduxIcon, name: 'Redux'}, {image: BootstrapIcon, name: 'Bootstrap'}, {image: SassIcon, name: 'SASS'}, {image: StyledComponentsIcon, name: 'Styled-Components'}]
     const backEndSkills = [{image: NodeIcon, name: 'Node.js'}, {image: ExpressIcon, name: 'Express.js'}, {image: JavascriptIcon, name: 'Massive.js'}, {image: NodeIcon, name: 'Bcrypt.js'}, {image: PostgresIcon, name: 'PostgreSQL'}]
-    const otherSkills = [{image: SocketIcon, name: 'Socket.io'}, {image: StripeIcon, name: 'Stripe.js'}, {image: ChartjsIcon, name: 'Chart.js'}, {image: GitIcon, name: 'Git'}, {image: JestIcon, name: 'Jest'}]
+    const otherSkills = [{image: SocketIcon, name: 'Socket.io'}, {image: StripeIcon, name: 'Stripe.js'}, {image: ChartjsIcon, name: 'Chart.js'}, {image: GitIcon, name: 'Git'}, {image: JestIcon, name: 'Jest'}, {image: JavascriptIcon, name: 'Axios'}]
     const mappedFrontEndSkills = frontEndSkills.map(skillStructure)
     const mappedBackEndSkills = backEndSkills.map(skillStructure)
     const mappedOtherSkills = otherSkills.map(skillStructure)

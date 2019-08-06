@@ -14,7 +14,13 @@ h3 {
 }
 
 p {
+  margin: 4px;
+  font-size: 17px;
   color: white;
+}
+
+p:hover {
+  color: #0078FF;
 }
 
 .App {
