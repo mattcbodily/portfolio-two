@@ -4,7 +4,7 @@ import './Menu.css';
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
-library.add(faBars)
+library.add(faBars);
 
 const Menu = () => {
     const [toggle, setToggle] = useState(false)

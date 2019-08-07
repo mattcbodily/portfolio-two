@@ -3,6 +3,10 @@
     padding-top: 7vh;
 }
 
+.project-box {
+    display: inline-block;
+}
+
 .project-video {
     width: 95vw;
 }
