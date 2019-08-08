@@ -16,10 +16,12 @@ const Projects = () => {
                 </video>
                 <a href='https://www.odntlongboards.com'><button>Live Site</button></a>
                 <a href='https://github.com/mattcbodily/longboard-shop'><button>GitHub</button></a>
-                <p className='project-description'>Old Dog New Trick longboards is an E-commerce longboard shop designed for Aaron Kahle. 
-                This application is built with a React front-end, and also uses Redux for state management. 
-                O.D.N.T. Longboards is styled using Bootstrap components, and Stripe is utilized to take 
-                customer payments.  The backend is built with Node.js, Express.js and a postgreSQL database.</p>
+                <div className='project-description'>
+                    <p>Old Dog New Trick longboards is an E-commerce longboard shop designed for Aaron Kahle. 
+                    This application is built with a React front-end, and also uses Redux for state management. 
+                    O.D.N.T. Longboards is styled using Bootstrap components, and Stripe is utilized to take 
+                    customer payments.  The backend is built with Node.js, Express.js and a postgreSQL database.</p>
+                </div>
             </section>
             <section className='project-box'>
             <section className='project-box'>
