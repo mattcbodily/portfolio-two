@@ -1,3 +1,29 @@
 .contact-container {
-    min-height: 100vh;
+    min-height: 75vh;
+    padding-top: 25vh;
+}
+
+.contact-input {
+    height: 30px;
+    width: 85%;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    border: none;
+    background-color: #0B0F14;
+    color: white;
+    font-size: 17px;
+    outline-color: #0078FF;
+}
+
+.contact-textarea {
+    height: 80px;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 5px 0px 0px 10px;
+    border: none;
+    background-color: #0B0F14;
+    color: white;
+    font-size: 17px;
+    outline-color: #0078FF;
 }
