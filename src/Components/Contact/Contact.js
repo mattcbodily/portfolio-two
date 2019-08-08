@@ -13,11 +13,13 @@ const Contact = () => {
             <form>
                 <input 
                     value={name}
+                    type='text'
                     placeholder='Name'
                     className='contact-input'
                     onChange={(e) => setName(e.target.value)}/>
                 <input 
                     value={email}
+                    type='email'
                     placeholder='Email'
                     className='contact-input'
                     onChange={(e) => setEmail(e.target.value)}/>
@@ -26,6 +28,7 @@ const Contact = () => {
                     placeholder='Enter Message'
                     className='contact-textarea'
                     onChange={(e) => setMessage(e.target.value)}/>
+                <button className='contact-button'>Send</button>
             </form>
         </div>
     )
