@@ -19,10 +19,18 @@ h4 {
   color: white;
 }
 
+h6 {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  margin: 9px;
+}
+
 p {
   margin: 4px;
   font-size: 17px;
   color: white;
+  text-align: left;
 }
 
 p:hover {

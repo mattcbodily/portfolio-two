@@ -5,8 +5,14 @@
 
 .project-box {
     display: inline-block;
+    margin: 12px 0px;
 }
 
 .project-video {
     width: 95vw;
+    margin-bottom: 4px;
+}
+
+.project-description {
+    margin: 4px 15px;
 }
