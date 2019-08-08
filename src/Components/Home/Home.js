@@ -1,6 +1,6 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Home.css';
+import Resume from '../../assets/Matthew_Bodily_Resume_2019.pdf';
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebookF, faTwitter, faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons';
@@ -16,7 +16,7 @@ const Home = () => {
                 <a href='https://twitter.com/Mattcbodily'><FontAwesomeIcon icon={['fab', 'twitter']} className='brand-icon'/></a>
                 <a href='https://www.linkedin.com/in/matthewbodily/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='brand-icon'/></a>
                 <a href='https://github.com/mattcbodily'><FontAwesomeIcon icon={['fab', 'github']} className='brand-icon'/></a>
-                <AnchorLink href='#about'><button className='landing-button'>About Me</button></AnchorLink>
+                <a href={Resume} download><button className='landing-button'>Resume</button></a>
             </section>
         </div>
     )
