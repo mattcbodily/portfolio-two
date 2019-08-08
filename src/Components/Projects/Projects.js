@@ -14,8 +14,8 @@ const Projects = () => {
                 <video className='project-video' controls>
                     <source src={ODNTLongboardsVideo} type='video/mp4'/>
                 </video>
-                <a href='https://www.odntlongboards.com'><button className='landing-button'>Live Site</button></a>
-                <a href='https://github.com/mattcbodily/longboard-shop'><button className='landing-button'>GitHub</button></a>
+                <a href='https://www.odntlongboards.com'><button>Live Site</button></a>
+                <a href='https://github.com/mattcbodily/longboard-shop'><button>GitHub</button></a>
                 <p className='project-description'>Old Dog New Trick longboards is an E-commerce longboard shop designed for Aaron Kahle. 
                 This application is built with a React front-end, and also uses Redux for state management. 
                 O.D.N.T. Longboards is styled using Bootstrap components, and Stripe is utilized to take 
@@ -27,7 +27,7 @@ const Projects = () => {
                 <video className='project-video' controls>
                     <source src={PiggyBankVideo} type='video/mp4'/>
                 </video>
-                <a href='https://github.com/mattcbodily/budget-app-hooks'><button className='landing-button'>GitHub</button></a>
+                <a href='https://github.com/mattcbodily/budget-app-hooks'><button>GitHub</button></a>
                 <p className='project-description'>PiggyBank is a budgeting app built with React and Styled Components on the 
                 front-end.  The back-end is built using Node.js, Express.js, and a postgreSQL
                 database.  Chart.js is implemented to improve user experience by providing a 
@@ -39,8 +39,8 @@ const Projects = () => {
                 <video className='project-video' controls>
                     <source src={TeachioVideo} type='video/mp4'/>
                 </video>
-                <a href='https://www.teachio.co'><button className='landing-button'>Live Site</button></a>
-                <a href='https://github.com/mattcbodily/tutorlab'><button className='landing-button'>GitHub</button></a>
+                <a href='https://www.teachio.co'><button>Live Site</button></a>
+                <a href='https://github.com/mattcbodily/tutorlab'><button>GitHub</button></a>
                 <p className='project-description'>Teachio is an online platform that allows students to find tutors. Users are able to find tutors 
                 based on subject, and can view tutor profiles and request lessons. Teachio utilizes AWS S3, as well 
                 as React Dropzone, to allow users to upload profile pictures. Socket.io is used within Teachio to allow 
@@ -51,7 +51,7 @@ const Projects = () => {
                 <video className='project-video' controls>
                     <source src={PearProgrammingVideo} type='video/mp4'/>
                 </video>
-                <a href='https://github.com/sudorm-rfdot/pearprogramming'><button className='landing-button'>GitHub</button></a>
+                <a href='https://github.com/sudorm-rfdot/pearprogramming'><button>GitHub</button></a>
                 <p className='project-description'>Pear Programming is an online, collaborative code editor. Utilizing Monaco's code editor, 
                 together with Socket.io, users are able to write and edit code together in real time. 
                 PearProgramming is styled using Sass, and it also utilizes particles.js for added styling on select pages. 

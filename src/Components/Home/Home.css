@@ -32,27 +32,6 @@ section {
     color: white;
 }
 
-.landing-button {
-    height: 30px;
-    width: 130px;
-    margin: 0px 7px;
-    border: 2px solid white;
-    background-color: #181D23;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-}
-
-.landing-button:hover {
-    border-color: #0078FF;
-    color: #0078FF;
-}
-
-.landing-button:active {
-    border-color: white;
-    color: white;
-}
-
 @media(min-width: 700px){
     #facebook-icon {
         font-size: 24px;

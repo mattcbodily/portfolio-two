@@ -37,6 +37,27 @@ p:hover {
   color: #0078FF;
 }
 
+button {
+  height: 30px;
+  width: 130px;
+  margin: 0px 7px;
+  border: 2px solid white;
+  background-color: #181D23;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+button:hover {
+  border-color: #0078FF;
+  color: #0078FF;
+}
+
+button:active {
+  border-color: white;
+  color: white;
+}
+
 .App {
   background-color: #181D23;
   text-align: center;

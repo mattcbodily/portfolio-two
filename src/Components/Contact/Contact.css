@@ -27,23 +27,3 @@
     font-size: 17px;
     outline-color: #0078FF;
 }
-
-.contact-button {
-    height: 30px;
-    width: 130px;
-    border: 2px solid white;
-    background-color: #181D23;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.contact-button:hover {
-    border-color: #0078FF;
-    color: #0078FF;
-}
-
-.contact-button:active {
-    border-color: white;
-    color: white;
-}

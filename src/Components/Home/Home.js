@@ -16,7 +16,7 @@ const Home = () => {
                 <a href='https://twitter.com/Mattcbodily'><FontAwesomeIcon icon={['fab', 'twitter']} className='brand-icon'/></a>
                 <a href='https://www.linkedin.com/in/matthewbodily/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='brand-icon'/></a>
                 <a href='https://github.com/mattcbodily'><FontAwesomeIcon icon={['fab', 'github']} className='brand-icon'/></a>
-                <a href={Resume} download><button className='landing-button'>Resume</button></a>
+                <a href={Resume} download><button>Resume</button></a>
             </section>
         </div>
     )
