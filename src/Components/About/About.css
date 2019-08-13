@@ -1,11 +1,12 @@
 .about-container {
     min-height: 93vh;
-    padding: 7vh;
+    padding: 7vh 11vw;
 }
 
 .portfolio-picture {
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
+    margin: 15px 0px;
     border: 2px solid white;
     border-radius: 50%;
 }

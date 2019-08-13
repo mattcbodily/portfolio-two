@@ -41,12 +41,18 @@ const Skills = () => {
     return(
         <div id='skills' className='skills-container'>
             <h1>Development Skills</h1>
-            <h3>Front-end</h3>
-            {mappedFrontEndSkills}
-            <h3>Back-end</h3>
-            {mappedBackEndSkills}
-            <h3>Other</h3>
-            {mappedOtherSkills}
+            <section className='skills-section'>
+                <h3>Front-end</h3>
+                {mappedFrontEndSkills}
+            </section>
+            <section className='skills-section'>
+                <h3>Back-end</h3>
+                {mappedBackEndSkills}
+            </section>
+            <section className='skills-section'>
+                <h3>Other</h3>
+                {mappedOtherSkills}
+            </section>
         </div>
     )
 }

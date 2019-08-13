@@ -35,3 +35,19 @@
     text-decoration: none;
     color: white;
 }
+
+@media(min-width: 700px){
+    .bars-container{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    .menu-icon {
+        font-size: 19px;
+    }
+
+    .menu-container {
+        top: 60px;
+    }
+}

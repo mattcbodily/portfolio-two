@@ -5,6 +5,7 @@ import './About.css';
 const About = () => {
     return(
         <div id='about' className='about-container'>
+            <h1>About Me</h1>
             <img 
                 src={PortfolioPicture} 
                 alt='Matt Bodily' 
