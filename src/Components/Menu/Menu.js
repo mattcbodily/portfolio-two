@@ -3,8 +3,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Menu.css';
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars} from '@fortawesome/free-solid-svg-icons';
-library.add(faBars);
+import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
+library.add(faBars, faTimes);
 
 const Menu = () => {
     const [toggle, setToggle] = useState(false)
@@ -16,9 +16,13 @@ const Menu = () => {
     return(
         <div className='menu'>
             <section className='bars-container' onClick={handleToggle}>
-                <FontAwesomeIcon 
+                {!toggle
+                ? (<FontAwesomeIcon 
                     icon='bars' 
-                    className='menu-icon'/>
+                    className='menu-icon'/>)
+                : (<FontAwesomeIcon 
+                    icon='times'
+                    className='menu-icon' />)}
             </section>
             {toggle
             ?  (<nav className='menu-container'>
