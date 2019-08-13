@@ -10,7 +10,6 @@ const Contact = () => {
         <div id='contact' className='contact-container'>
             <h1>Contact</h1>
             <h4>Have a question or want to work together?</h4>
-            <form>
                 <input 
                     value={name}
                     type='text'
@@ -28,8 +27,9 @@ const Contact = () => {
                     placeholder='Enter Message'
                     className='contact-textarea'
                     onChange={(e) => setMessage(e.target.value)}/>
-                <button>Send</button>
-            </form>
+                <div>
+                    <button>Send</button>
+                </div>
         </div>
     )
 }
