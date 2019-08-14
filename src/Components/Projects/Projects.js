@@ -68,16 +68,20 @@ const Projects = () => {
                 <video key={projectArr[index].video} className='project-video' controls>
                     <source src={projectArr[index].video} type='video/mp4'/>
                 </video>
-                {projectArr[index].liveSite
-                ? <a href={projectArr[index].liveSite}><button>Live Site</button></a>
-                : null}
-                <a href={projectArr[index].gitHub}><button>GitHub</button></a>
-                <div className='project-description'>
-                    <p>{projectArr[index].description}</p>
+                <div>
+                    {projectArr[index].liveSite
+                    ? <a href={projectArr[index].liveSite}><button>Live Site</button></a>
+                    : null}
+                    <a href={projectArr[index].gitHub}><button>GitHub</button></a>
+                    <div className='project-description'>
+                        <p>{projectArr[index].description}</p>
+                    </div>
                 </div>
             </section>
-            <button onClick={decrementIndex}>Previous</button>
-            <button onClick={incrementIndex}>Next</button>
+            <div>
+                <button onClick={decrementIndex}>Previous</button>
+                <button onClick={incrementIndex}>Next</button>
+            </div>
         </div>
     )
 }

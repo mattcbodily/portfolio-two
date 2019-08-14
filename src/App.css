@@ -34,10 +34,6 @@ p {
   text-align: left;
 }
 
-p:hover {
-  color: #0078FF;
-}
-
 button {
   height: 30px;
   width: 130px;
