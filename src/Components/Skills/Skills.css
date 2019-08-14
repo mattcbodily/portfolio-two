@@ -1,11 +1,13 @@
 .skills-container {
     min-height: 94vh;
+    max-width: 530px;
     padding: 6vh 0vw;
+    display: inline-block;
 }
 
 .skill-box {
     display: inline-block;
-    padding: 5px 5px;
+    padding: 5px;
     border: 2px solid white;
     border-radius: 20px;
     margin: 4px;
@@ -36,7 +38,25 @@
 
 @media(min-width: 700px){
     .skills-container {
-        width: 500px;
-        display: inline-block;
+        height: 85vh;
+        width: 530px;
+        padding-top: 15vh;
+    }
+
+    .skill-box {
+        height: 32px;
+        margin-bottom: 8px;
+    }
+
+    .skills-flex {
+        align-items: center;
+    }
+
+    .skill-icon {
+        height: 32px;
+    }
+
+    .skill-name {
+        font-size: 18px;
     }
 }
