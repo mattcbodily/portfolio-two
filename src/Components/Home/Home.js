@@ -11,7 +11,7 @@ const Home = () => {
         <div id='home' className='home-container'>
             <h1>Hello, I'm <span className='name-span'>Matthew Bodily</span></h1>
             <h1>Full-Stack Web Developer</h1>
-            <section>
+            <section className='social-media-icons'>
                 <a href='https://www.facebook.com/matt.bodily.1'><FontAwesomeIcon icon={['fab', 'facebook-f']} id='facebook-icon' className='brand-icon'/></a>
                 <a href='https://twitter.com/Mattcbodily'><FontAwesomeIcon icon={['fab', 'twitter']} className='brand-icon'/></a>
                 <a href='https://www.linkedin.com/in/matthewbodily/'><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='brand-icon'/></a>

@@ -63,7 +63,7 @@ const Projects = () => {
     return(
         <div id='projects' className='projects-container'>
             <h1>Projects</h1>
-            <section className='project-box'>
+            <section>
                 <h3>{projectArr[index].name}</h3>
                 <video key={projectArr[index].video} className='project-video' controls>
                     <source src={projectArr[index].video} type='video/mp4'/>

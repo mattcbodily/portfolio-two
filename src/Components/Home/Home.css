@@ -1,13 +1,13 @@
-section {
+.home-container {
+    min-height: 58vh;
+    padding-top: 42vh;
+}
+
+.social-media-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 7px;
-}
-
-.home-container {
-    min-height: 58vh;
-    padding-top: 42vh;
 }
 
 .name-span {
