@@ -21,7 +21,7 @@ const About = () => {
                 <p className='education-italics'>Web Badged</p>
                 <p className='education-italics'>Jan. 2019 - April 2019</p>
             </section>
-            <section>
+            <section className='education-block'>
                 <p>Utah Valley University</p>
                 <p className='education-italics'>Associates in Integrated Studies</p>
                 <p className='education-italics'>Jan. 2013 - Dec. 2016</p>
