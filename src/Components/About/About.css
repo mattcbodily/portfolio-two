@@ -15,6 +15,24 @@
     margin: 15px 0px;
 }
 
+/* .institution {
+    text-align: center;
+} */
+
 .education-italics {
     font-style: italic;
+    /* text-align: center; */
+}
+
+@media(min-width: 700px){
+    .about-container {
+        height: 88vh;
+        padding: 12vh 14vw;
+    }
+
+    .portfolio-picture {
+        height: 300px;
+        width: 300px;
+        margin-bottom: 25px;
+    }
 }
