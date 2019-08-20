@@ -1,6 +1,7 @@
 .about-container {
     min-height: 96vh;
-    padding: 4vh 7vw;
+    padding: 4vh 0vw;
+    display: inline-block;
 }
 
 .portfolio-picture {
@@ -9,6 +10,16 @@
     margin-top: 15px;
     border: 2px solid white;
     border-radius: 50%;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-p {
+    max-width: 345px;
 }
 
 .education-block {
@@ -34,5 +45,9 @@
         height: 300px;
         width: 300px;
         margin-bottom: 25px;
+    }
+
+    .about-me-p {
+        max-width: 380px;
     }
 }
