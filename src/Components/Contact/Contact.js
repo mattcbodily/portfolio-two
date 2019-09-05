@@ -8,19 +8,27 @@ const Contact = () => {
     const [message, setMessage] = useState('')
 
     const sendMessage = () => {
-        const newMessage = {
-            name,
-            email,
-            message
+        if(!name){
+            alert('Please enter your name')
+        } else if(!email){
+            alert('Please enter your email')
+        } else if(!message){
+            alert('Please enter your message')
+        } else {
+            const newMessage = {
+                name,
+                email,
+                message
+            }
+
+            axios.post('/api/message', newMessage)
+            .then(res => alert('Message Sent!'))
+            .catch(err => console.log(err))
+
+            setName('')
+            setEmail('')
+            setMessage('')
         }
-
-        axios.post('/api/message', newMessage)
-        .then(res => alert('Message Sent!'))
-        .catch(err => console.log(err))
-
-        setName('')
-        setEmail('')
-        setMessage('')
     }
 
     return(
