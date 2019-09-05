@@ -32,6 +32,12 @@
     color: white;
 }
 
+.download-icon {
+    font-size: 12px;
+    margin-right: 3px;
+    margin-bottom: 1px;
+}
+
 @media(min-width: 700px){
     #facebook-icon {
         font-size: 26px;
