@@ -12,7 +12,7 @@ massive(CONNECTION_STRING).then(db => {
 }).catch(err => console.log(err))
 
 //message endpoint
-app.post('/api/message', function(){
+app.post('/api/message', function(req, res){
     const {name, email, message} = req.body;
     const db = req.app.get('db');
     
