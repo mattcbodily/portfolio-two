@@ -11,4 +11,14 @@ massive(CONNECTION_STRING).then(db => {
     console.log('DB Connected')
 }).catch(err => console.log(err))
 
+//message endpoint
+app.post('/api/message', function(){
+    const {name, email, message} = req.body;
+    const db = req.app.get('db');
+    
+    db.post_message(name, email, message)
+    .then(res.sendStatus(200))
+    .catch(err => res.status(500).send(err))
+})
+
 app.listen(SERVER_PORT, () => console.log(`Server running on port ${SERVER_PORT}`));
